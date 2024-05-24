@@ -1,0 +1,451 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: "Ibarra Real Nova", sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1121px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header_wrapper{
+    width: 100%;
+    height: 32px;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_wrapper ul{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.header_wrapper li{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #33323d;
+}
+.spencer_wrapper{
+    width: 1110px;
+    height: 600px;
+    position: relative;
+    margin-top: 54px;
+}
+
+.ildiz{
+    width: 100%;
+}
+.spencer_card{
+    width: 445px;
+    height: 357px;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+}
+.spencer_card h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #33323d;
+    margin: 56px 55px 53px 0;
+    width: 460px;
+    height: 200px;
+}
+.spencer_card button{
+    width: 200px;
+    height: 48px;
+    background: #203a4c;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding-left: 50px;
+}
+.spencer_card img{
+    position: absolute;
+}
+
+.ABOUT_wrapper{
+    width: 1015px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.ABOUT_card{
+    width: 350px;
+    height: 502px;
+}
+.ABOUT_card h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    color: #33323d;
+    margin-bottom: 28px;
+}
+
+.ABOUT_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #33323d;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.ABOUT_card button{
+    width: 202px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #33323d;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+.tog{
+    width: 1440px;
+    height: 314px;  
+    margin-bottom: 100px;
+}
+.tog_wrapper{
+    width: 1110px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.tog_wrapper h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    color: #33323d;
+    width: 370px;
+    height: 84px;
+}
+.tog_wrapper button{
+    border: 1px solid #33323d;
+    width: 162px;
+    height: 48px; 
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #33323d;  
+}
+.tog_img{
+    width: 1440px;
+    height: 80px;
+    background: #33323d;
+    margin-bottom: 300px;
+}
+.man{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tog_ul{
+    width: 450px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.tog_ul ul{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.tog_ul ul a{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.spencer_wrapper button:hover{
+    background: #5fb4a2;
+    cursor: pointer;
+}
+.ABOUT_card button:hover{
+    background: #33323d;
+    color: #fff;
+    cursor: pointer;
+}
+.tog_wrapper button:hover{
+    background: #33323d;
+    color: #fff;
+    cursor: pointer;
+}
+.self{
+    display: none;
+}
+.burger{
+    display: none;
+}
+
+
+@media(max-width:770px){
+    .container{
+        max-width: 690px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header_wrapper{
+        width: 689px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+    }
+    .header_wrapper ul{
+        width: 320px;
+        height: 14px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .header_wrapper li{
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+        color: #33323d;
+    }
+    .spencer_wrapper{
+        width: 688px;
+        height: 600px;
+        margin-top: 47px;
+    }
+    .spencer_card{
+        width: 514px;
+        height: 278px;
+    }
+    .spencer_card h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 105%;
+        letter-spacing: -0.01em;
+        color: #33323d;
+        width: 458px;
+        height: 126px;
+    }
+    .spencer_card button{
+        width: 200px;
+        height: 48px;
+    }
+    .ABOUT_wrapper{
+        width: 689px;
+        height: 600px;
+        margin-top: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .self1{
+        display: none;
+    }
+    .self{
+        display: block;
+        width: 281px;
+        height: 600px;
+    }
+    .ABOUT_card{
+        width: 339px;
+        height: 600px;
+        padding-top: 50px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+        border-top: 1px solid rgba(0, 0, 0, 0.096);
+    }
+    .ABOUT_card h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 105%;
+        letter-spacing: -0.01em;
+        color: #33323d;
+        margin-bottom: 28px;
+    }
+    .ABOUT_card p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+        color: #33323d;
+        opacity: 0.8;
+        width: 339px;
+        height: 360px;
+    }
+    .ABOUT_card button{
+        width: 202px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+        color: #33323d;
+        margin-top: 7px;
+    }
+    .tog_wrapper{
+        width: 689px;
+        height: 84px;
+    }
+    .tog_wrapper h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 105%;
+        letter-spacing: -0.01em;
+        color: #33323d;
+    }
+    .tog_wrapper img{
+        width: 113px;
+        height: 1px;
+    }
+    .tog_wrapper button{
+        width: 162px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+        color: #33323d;
+    }
+    .tog_img{
+        width: 768px;
+        height: 80px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:380px){
+    .container{
+        max-width: 340px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header_wrapper img{
+        width: 80px;
+        height: 36px;
+    }
+    .header_wrapper{
+        width: 340px;
+        height: 32px;   
+    }
+    .header_wrapper ul{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .spencer_wrapper img{
+        width: 340px;
+        height: 271px;
+    }
+    .spencer_card h1{
+       font-weight: 700;
+       font-size: 40px;
+       line-height: 105%;
+       letter-spacing: -0.01em;
+       color: #33323d;
+       width: 341px;
+       height: 168px;
+    }
+    .spencer_card img{
+        width: 48px;
+        height: 48px;
+    }
+    .ABOUT_wrapper{
+        width: 311px;
+        height: 995px;
+        display: inline;
+    }
+    .self{
+        display: none;
+    }
+    .self1{
+        display: block;
+        width: 311px;
+        height: 346px;
+        margin-top: 90px;
+    }
+    .ABOUT_card button{
+        border: 1px solid #33323d;
+        width: 202px;
+        height: 48px;
+    }
+    .tog_wrapper{
+        display: inline;
+        position: relative;
+    }
+    .tog_wrapper h2{
+       font-weight: 700;
+       font-size: 40px;
+       line-height: 105%;
+       letter-spacing: -0.01em;
+       text-align: center;
+       color: #33323d;
+       width: 311px;
+       height: 128px;
+       margin-top: 115px;
+       margin-bottom: 40px;
+    }
+    .tog_wrapper button{
+        width: 162px;
+        height: 48px;
+        position: absolute;
+        top: 166px;
+        left: 75px;
+    }
+    .tog_img{
+        width: 375px;
+        height: 354px;
+        margin-top: 90px;
+        
+    }
+    .tog_ul{
+        display: inline;
+        width: 104px;
+        height: 242px;
+        margin: 0 auto;
+    }
+    .tog_ul ul{
+        width: 98px;
+        height: 106px;
+        display: inline;
+        margin-bottom: 40px ;
+    }
+    .tog_ul ul li{
+        margin-top: 32px;
+    }
+    .man{
+        width: 104px;
+        height: 242px;
+        display: inline;
+    }
+}
